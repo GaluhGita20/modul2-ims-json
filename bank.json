@@ -1,0 +1,18 @@
+{
+    "tb_transaksi": [
+        {
+            "id_transaksi": "3",
+            "no_rekening": "1404512910",
+            "tgl_rekening": "2022-03-30 14:43:34",
+            "total_rekening": "1000000",
+            "status": "0"
+        },
+        {
+            "id_transaksi": "4",
+            "no_rekening": "1404512910",
+            "tgl_rekening": "2022-03-30 15:40:48",
+            "total_rekening": "1000000",
+            "status": "0"
+        }
+    ]
+}
