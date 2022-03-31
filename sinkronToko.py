@@ -28,8 +28,8 @@ def menu():
         menu()
 
 def backup_data():
-    DB_1 = pymysql.connect(host='localhost', port=3308, user='root', password='', database='modul1_toko')
-    DB_2 = pymysql.connect(host='localhost', port=3308, user='root', password='', database='modul1_bank')
+    DB_1 = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4481757', password='ACsYJCpvhb', database='sql4481757')
+    DB_2 = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4481754', password='JPkreVD6Wb', database='sql4481754')
     CUR_1 = DB_1.cursor()
     CUR_2 = DB_2.cursor()
 
@@ -63,8 +63,8 @@ def integration_database():
     TB_NAME = "tb_transaksi"
 
 
-    DB_1 = pymysql.connect(host='localhost', port=3308, user='root', password='', database='modul1_toko')
-    DB_2 = pymysql.connect(host='localhost', port=3308, user='root', password='', database='modul1_bank')
+    DB_1 = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4481757', password='ACsYJCpvhb', database='sql4481757')
+    DB_2 = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4481754', password='JPkreVD6Wb', database='sql4481754')
 
     QUERY_SELECT = "SELECT * FROM tb_transaksi"
 
